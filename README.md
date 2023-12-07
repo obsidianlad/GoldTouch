@@ -4,7 +4,7 @@ GoldTouch is a configurable CB1060 server plugin that makes all gold tools have 
 
 ## Installation
 
-Download the latest release GoldTouch.jar and put it in the `plugins/` folder of your CB1060 server. 
+Download the [latest release GoldTouch.jar](https://github.com/obsidianlad/GoldTouch/releases/latest) and put it in the `plugins/` folder of your CB1060 server. 
 
 ## Configuration
 
