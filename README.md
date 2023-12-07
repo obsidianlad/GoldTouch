@@ -54,7 +54,7 @@ A server admin may configure this however they like. See [Materials.java](https:
 
 ## Building
 
-To build from source you will need a CB1060 Jar and Java 8.
+To build from source you will need a CB1060 jar and Java 8.
 
 Then, simply
 
@@ -64,9 +64,10 @@ $ javac -cp path/to/cb1060.jar:. GoldTouch.java
 
 This will give you a compiled GoldTouch.class.
 
-Then you will have to pack your own Jar with the following folder structure:
+Then you will have to pack your own GoldTouch.jar with the following folder structure:
 
 ```
+GoldTouch.jar
 ├── lad/
 │     └── obsidian/
 │           └── goldtouch/
