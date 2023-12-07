@@ -54,7 +54,7 @@ A server admin may configure this however they like. See [Materials.java](https:
 
 ## Building
 
-To build from source you will need a CB1060 Jar.
+To build from source you will need a CB1060 Jar and Java 8.
 
 Then, simply
 
