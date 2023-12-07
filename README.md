@@ -12,7 +12,7 @@ Download the latest release GoldTouch.jar and put it in the `plugins/` folder of
 
 GoldTouch comes with a single permission, which is true by default:
 
-```
+```yml
 permissions:
   goldtouch.use:
     default: true
@@ -26,7 +26,7 @@ This is useful for server admins that don't want players to have specific blocks
 
 By default, GoldTouch will create its own `plugins/GoldTouch/config.yml` with the following defaults:
 
-```
+```yml
 ignore:
 - BEDROCK
 - PISTON_BASE
@@ -51,3 +51,25 @@ ignore:
 ```
 
 A server admin may configure this however they like. See [Materials.java](https://github.com/Bukkit/Bukkit/blob/da29e0aa4dcb08c5c91157c0830851330af8b572/src/main/java/org/bukkit/Material.java#L14) for block names.
+
+## Building
+
+To build from source you will need a CB1060 Jar.
+
+Then, simply
+
+```bash
+$ javac -cp path/to/cb1060.jar:. GoldTouch.java
+```
+
+This will give you a compiled GoldTouch.class.
+
+Then you will have to pack your own Jar with the following folder structure:
+
+```
+├── lad/
+│     └── obsidian/
+│           └── goldtouch/
+│                 └── GoldTouch.java
+└── plugin.yml
+```
