@@ -2,7 +2,7 @@ name: GoldTouch
 version: 1.0.0
 main: lad.obsidian.goldtouch.GoldTouch
 author: Obsidianlad
-description: Silk Touch for gold tools
+description: Silk Touch for gold tools.
 
 permissions:
   goldtouch.use:
