@@ -26,7 +26,6 @@ import java.util.HashSet;
 import java.util.ArrayList;
 
 import org.bukkit.World;
-import org.bukkit.Effect;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
@@ -37,7 +36,6 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.util.config.Configuration;
 import org.bukkit.event.block.BlockBreakEvent;
-import org.bukkit.util.config.ConfigurationNode;
 
 /**
  * GoldTouch Plugin
