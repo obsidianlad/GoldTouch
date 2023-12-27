@@ -71,6 +71,6 @@ GoldTouch.jar
 ├── lad/
 │     └── obsidian/
 │           └── goldtouch/
-│                 └── GoldTouch.java
+│                 └── GoldTouch.class
 └── plugin.yml
 ```
