@@ -1,6 +1,6 @@
-# GoldTouch - Silk Touch for gold tools
-
 ![logo](./goldtouch.png)
+
+# GoldTouch - Silk Touch for gold tools
 
 GoldTouch is a configurable CB1060 server plugin that makes all gold tools have silk touch.
 
