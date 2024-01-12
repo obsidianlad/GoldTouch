@@ -66,7 +66,7 @@ $ javac -cp path/to/cb1060.jar:. GoldTouch.java
 
 This will give you a compiled GoldTouch.class.
 
-Then you will have to pack your own GoldTouch.jar with the following folder structure:
+Lastly, pack your own GoldTouch.jar with the following folder structure:
 
 ```
 GoldTouch.jar
